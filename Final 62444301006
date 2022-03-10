@@ -7,7 +7,7 @@ pragma solidity ^0.4.24;
 // Name          : {{GLP Token}} 
 // Total supply  : {{1xxxxxx}}
 // Decimals      : {{4}}
-// Owner Account : {{0xCA9114a83C79cA473d1370CE35EEdBEC556D4B2D}}
+// Owner Account : {{0x19B8596f6c50199FfEb57c63d160413d59cE13bB}}
 //
 // Enjoy.
 //
@@ -88,8 +88,8 @@ contract xxxToken is ERC20Interface, SafeMath {
         name = "GLP Token";
         decimals = 4;
         _totalSupply = 1xxxxxx;
-        balances[0xCA9114a83C79cA473d1370CE35EEdBEC556D4B2D] = _totalSupply;
-        emit Transfer(address(0), 0xCA9114a83C79cA473d1370CE35EEdBEC556D4B2D, _totalSupply);
+        balances[0x19B8596f6c50199FfEb57c63d160413d59cE13bB] = _totalSupply;
+        emit Transfer(address(0), 0x19B8596f6c50199FfEb57c63d160413d59cE13bB, _totalSupply);
     }
 
 
